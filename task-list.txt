@@ -1,0 +1,30 @@
+1) Execution and call stack 
+2) Array
+3) Object
+4) String
+5) Number 
+6) let/var/const, hoisting and temporal Deadzone
+7) scope and scope chaining 
+8) Mutable/Imutable data types
+9) functions ,declarations, expression, programming, arrow function, IIFE, generator functions
+10) this keyword with arrow function
+11) call, apply, bind
+12) callback and hell
+13) promise and promise chaining and APIs(4)
+14) async/await, async/defer
+15) callback vs promise vs async/await
+16) currying
+17) debounce nad throttling
+18) Event propagation and delegation
+19) Bubbling
+20) Capturing
+21) Prototype and prototype inheritance
+22) Memoizations
+23) Polyfills
+24) Event loop, microtask, Macrotasks
+25) Web APIs
+26) setTimeout, setInterval
+27) Working of JS Engine 
+28) Javascript
+29) ES6 and above 
+30) Date, Math, Other, Loop, block 
