@@ -1,7 +1,6 @@
-// console.log(a); // ReferenceError => will give not defined error
+// console.log(a); // ReferenceError => will give not defined error, means reference not found in memory
 
 // ------------------------------------------------------------------------------------------------
-
 // console.log(a, b); // ReferenceError => Cannot access 'a' before initialization for let and const
 // let a = 5;
 // const b = 5;
@@ -9,13 +8,14 @@
 // ------------------------------------------------------------------------------------------------
 
 // console.log(a); // will give undefined as output for var
+// undefined = memory is allocated to and undefined is like/assuming placeholder for some time to initialize it
 // var a = 5;
-
+// var b; if it is not initialized then it is undefined throughout the program
 // ------------------------------------------------------------------------------------------------
-
+// const b; SyntaxError: Missing initializer in const declaration
 // const a = 5;
 // a = 74; // TypeError: Assignment to constant variable. for const
-// const a = 7; // SyntaxError: Identifier 'a' has already been declared for let and const
+// const a = 7; // SyntaxError: Identifier 'a' has already been declared for const
 
 // ------------------------------------------------------------------------------------------------
 
@@ -24,7 +24,7 @@
 // console.log(A); // will give ReferenceError A is not defined
 // let A = 15;
 // console.log(A, a); // will give separate values as variable name is case sensitive
-
+// let a1 = 7; let a1 = 5; // Uncaught SyntaxError: Identifier 'a1' has already been declared
 // ------------------------------------------------------------------------------------------------
 
 /* let a = "a";
@@ -46,4 +46,10 @@ function varC() {
 }
 varC();
 console.log(c);*/
+// ------------------------------------------------------------------------------------------------
+
+// js is loosely typed
+// var a =5;
+// a = "a";
+// a = undefined // it is possible but tis mistake or bad way
 // ------------------------------------------------------------------------------------------------

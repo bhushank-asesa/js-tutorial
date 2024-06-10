@@ -3,9 +3,9 @@
 3) Object
 4) String
 5) Number 
-6) let/var/const, hoisting and temporal Deadzone
+6) let/var/const, hoisting and temporal Dead-zone
 7) scope and scope chaining 
-8) Mutable/Imutable data types
+8) Mutable/Immutable data types
 9) functions ,declarations, expression, programming, arrow function, IIFE, generator functions
 10) this keyword with arrow function
 11) call, apply, bind
@@ -19,9 +19,9 @@
 19) Bubbling
 20) Capturing
 21) Prototype and prototype inheritance
-22) Memoizations
+22) Memoization
 23) Polyfills
-24) Event loop, microtask, Macrotasks
+24) Event loop, micro-task, Macro-tasks
 25) Web APIs
 26) setTimeout, setInterval
 27) Working of JS Engine 
