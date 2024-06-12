@@ -19,7 +19,7 @@ function square(n) {
   return n * n;
 }
 const evenArr = array_1.filter(isEven);
-const oddArr = array_1.filter(isOdd);
+const oddArr = array_1.filter(isOdd); // filter gives array who fulfils conditions
 const squareArr = array_1.map(square);
 const sumArr = array_1.reduce((sum, element) => {
   sum += element;
