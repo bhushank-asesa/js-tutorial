@@ -36,4 +36,4 @@ console.log(radiusArgument.calc(area));
 console.log(radiusArgument.calc(circumFerence));
 console.log(radiusArgument.calc(diameter));
 
-// it gives reusability/moduleribility over old approach
+// it gives reusability/modularability over old approach, DRY -> Don't repeat yourself
