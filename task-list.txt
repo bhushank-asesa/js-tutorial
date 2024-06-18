@@ -9,6 +9,8 @@
 18) Event propagation and delegation
 19) Bubbling
 20) Capturing
+21) Prototype and prototype inheritance
+22) Memoization
 
 
 1) Execution and call stack 
@@ -20,8 +22,6 @@
 13) promise and promise chaining and APIs(4)
 14) async/await, async/defer
 15) callback vs promise vs async/await
-21) Prototype and prototype inheritance
-22) Memoization
 23) Polyfills
 24) Event loop, micro-task, Macro-tasks
 25) Web APIs
