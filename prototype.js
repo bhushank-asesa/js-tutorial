@@ -21,3 +21,4 @@ Function.prototype.square = function (n) {
   console.log(n * n);
 };
 function fun() {}
+// eg. Array.prototype.calcArea
