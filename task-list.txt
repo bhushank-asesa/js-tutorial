@@ -11,9 +11,9 @@
 20) Capturing
 21) Prototype and prototype inheritance
 22) Memoization
-
-
+23) Polyfills
 1) Execution and call stack 
+
 4) String
 5) Number 
 7) scope and scope chaining 
@@ -22,7 +22,6 @@
 13) promise and promise chaining and APIs(4)
 14) async/await, async/defer
 15) callback vs promise vs async/await
-23) Polyfills
 24) Event loop, micro-task, Macro-tasks
 25) Web APIs
 26) setTimeout, setInterval
