@@ -7,10 +7,10 @@
 16) currying
 17) debounce and throttling
 18) Event propagation and delegation
-19) Bubbling
+19) Bubbling 
 20) Capturing
 21) Prototype and prototype inheritance
-22) Memoization
+22) Memoization  => recursive function and performance?
 23) Polyfills
 1) Execution and call stack 
 
@@ -19,78 +19,36 @@
 7) scope and scope chaining 
 8) Mutable/Immutable data types
 12) callback and hell
-13) promise and promise chaining and APIs(4)
+13) promise and promise chaining and APIs(4); Promise.all => speed up?
 14) async/await, async/defer
 15) callback vs promise vs async/await
 24) Event loop, micro-task, Macro-tasks
 25) Web APIs
-26) setTimeout, setInterval
+26) setTimeout, setInterval compare difference use cases
 27) Working of JS Engine 
 28) Javascript
 29) ES6 and above 
 30) Date, Math, Other, Loop, block 
 ---------------------------------------
 
-🍄 Promises ( polyfill of Promise all, race, allSettle )
-🍄 Currying with example
-🍄 String.prototype.repeat
-🍄 Implement the compose() and pipe() polyfill .
-🍄 Design patterns like singleton, factory patterns etc
-🍄 Implement the publisher-subscriber pattern in javascript
-🍄 Implement the map, filter, reduce, and for Each polyfill
-🍄 Implement the Function.bind, call, and apply method on the Function Prototype
-🍄 Implement Async. parallel, Async.series which executes a set of async tasks parallel and in series
-🍄 Implement thet Retry API 
-🍄 Prototype and prototype inheritance
-🍄 How rendering work in the browser
-🍄 Event delegation and event propagation in js
-🍄 Implement Memoization
-🍄 Progressive Web application
-🍄 Clone an Object
-🍄 Debouncing and Throttling
-🍄 Implement clearAllTimeout()
-🍄 Build a Promise from Scratch
-🍄 How does JS "this" works in different scenarios?
-🍄 Implement a function to flatten a nested array
-🍄 Implement an LRU Cache
 
-
-1. Why are variables created with var hoisted and initialized with undefined in JavaScript?
-
-2. Compare setTimeout and setInterval functions in JavaScript. How are they different in timing and use cases?
-
-3. Explain prototypal inheritance in JavaScript. How is it different from inheritance in other languages?
-
-4. Explain how hoisting works in JavaScript, even though it's interpreted?
-
-5. How does closure affect garbage collection in JavaScript?
-
-6. Explain lexical scope in JavaScript and how it affects variable visibility. Provide examples to illustrate?
-
-7. How does memoization improve performance in JavaScript? Can you show an example of memoizing a recursive function?
-
-8. Distinguish arrow functions from regular functions in JavaScript. When do you prefer using each type?
-
-9. Describe event delegation in JavaScript. How does it optimize event handling?
-
-10. How do you handle errors and exceptions in JavaScript? What are the best practices for error handling in asynchronous code with promises?
-
-11. What are the differences between == and === operators in JavaScript? When do you use one over the other?
-
-12. How does the Event Loop work in JavaScript? What does it do when handling asynchronous operations?
-
-13. Describe the differences between let, const, and var in JavaScript. When do you use each one?
-
-14. How does Promise.all work behind the scenes in JavaScript? How does it speed up promise execution in a single-threaded environment?
-
-15. Why doesn't function currying have an official reference on MDN? When is it appropriate to use function currying?
-
-Feel free to add more questions like these in the comments!!
-
-
-#javascript (1 - 5) frequenctly asked output based questions.
-
- 1. Find the output of below code ?
+31) String.prototype.repeat
+32) Implement the compose() and pipe() polyfill .
+33) Design patterns like singleton, factory patterns etc
+34) Implement the publisher-subscriber pattern in javascript
+35) Implement Async. parallel, Async.series which executes a set of async tasks parallel and in series
+36) Implement thet Retry API 
+37) How rendering work in the browser
+38) Implement Memoization
+39) Progressive Web application
+40) Clone an Object
+41) Implement clearAllTimeout()
+42) Implement a function to flatten a nested array
+43) Implement an LRU Cache
+44) How does closure affect garbage collection in JavaScript?
+45) Explain lexical scope in JavaScript and how it affects variable visibility. Provide examples to illustrate?
+46) 10. How do you handle errors and exceptions in JavaScript? What are the best practices for error handling in asynchronous code with promises?
+47)   Find the output of below code ?
 console.log("Start");
  setTimeout(() => { 
 console.log("Timeout"); 
@@ -98,7 +56,7 @@ console.log("Timeout");
 Promise.resolve().then(() => console.log("Promise")); 
 console.log("End");
 ---------------------------------------------------------------------------
-
+48) 
 2. Find the output ?
 var x=10;
  function foo(){ 
@@ -108,8 +66,7 @@ var x = 5;
 foo(); 
 console.log(x)
 ---------------------------------------------------------------------------
-
-3. Find the output ?
+49) Find the output ?
 function x(){ 
 for(var i=1;i<=5;i++){
  setTimeout(()=>{
@@ -118,8 +75,7 @@ for(var i=1;i<=5;i++){
 } }
 x();
 ---------------------------------------------------------------------------
-
-4. Find the output ?
+50) Find the output ?
 function x(){
 let a = 10;
  function d(){
@@ -132,8 +88,7 @@ var z = x();
 z();
 
 ---------------------------------------------------------------------------
-
-5. Find the output ?
+51) Find the output ?
 
 getData1() 
 getData();
