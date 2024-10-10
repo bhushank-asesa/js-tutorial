@@ -1,25 +1,50 @@
 # Javascript task List
 
-1. Array
+1. :white_check_mark: Array
 
-- slice()`and`splice()
-- difference between `find()` and `findIndex()`?
-- Explain the primary distinction between the Array.forEach - loop and Array.map() method, as well as when to choose one over the other.
+   - slice()`and`splice()
+   - difference between `find()` and `findIndex()`?
+   - Explain the primary distinction between the Array.forEach - loop and Array.map() method, as well as when to choose one over the other.
 
-2. Object
-3. let/var/const, hoisting and temporal Dead-zone
-4. functions ,declarations, expression, programming, arrow function, IIFE, generator functions
-5. this keyword with arrow function, behavior
+2. :white_check_mark: let/var/const, hoisting and temporal Dead-zone
+3. :white_check_mark: functions ,declarations, expression, programming, arrow function, IIFE, generator functions
+4. :white_check_mark: this keyword with arrow function, behavior
 
-- Describe how JavaScript's `this` keyword works in different contexts.
+   - Describe how JavaScript's `this` keyword works in different contexts.
 
-6. call, apply, bind
-7. currying
-8. debounce and throttling
-9. Event propagation and delegation
-10. Bubbling
-11. Capturing
-12. Prototype and prototype inheritance
+5. :white_check_mark: Find the output of below code?
+
+```js
+console.log("Start");
+setTimeout(() => {
+  console.log("Timeout");
+});
+Promise.resolve().then(() => console.log("Promise")); // higher priority than setTimeout when same time execute and change according timeout or promise execution
+console.log("End");
+// Start End Promise Timeout
+```
+
+6. :white_check_mark: Find the output ?
+
+```javascript
+var x = 10;
+function foo() {
+  var x = 5;
+  console.log(x);
+}
+foo();
+console.log(x); // 5,10
+```
+
+7. :white_check_mark: first class function or higher-order functions
+8. Object
+9. call, apply, bind
+10. currying
+11. debounce and throttling
+12. Event propagation and delegation
+13. Bubbling
+14. Capturing
+15. Prototype and prototype inheritance
 
 - Explain the difference between `prototype` and `__proto__`.
 
@@ -57,30 +82,10 @@
 44. closure, How does closure affect garbage collection in JavaScript?
 45. Explain lexical scope in JavaScript and how it affects variable visibility. Provide examples to illustrate?
 46. How do you handle errors and exceptions in JavaScript? What are the best practices for error handling in asynchronous code with promises?
-47. Find the output of below code?
-
-```javascript
-console.log("Start");
-setTimeout(() => {
-  console.log("Timeout");
-});
-Promise.resolve().then(() => console.log("Promise"));
-console.log("End");
-```
 
 ---
 
-48 Find the output ?
-
-```javascript
-var x = 10;
-function foo() {
-  var x = 5;
-  console.log(x);
-}
-foo();
-console.log(x);
-```
+````
 
 ---
 
@@ -94,7 +99,7 @@ console.log(x);
     },i\*1000)
     } }
     x();
-```
+````
 
 ---
 
@@ -130,7 +135,6 @@ var getData = () => {
 
 ---
 
-52. higher-order functions
 53. shallow copy and deep copy
 54. data types
 
