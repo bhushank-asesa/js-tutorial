@@ -2,7 +2,7 @@
 
 > **Questions**
 >
-> > - Difference between `find()` and `findIndex()` and `slice()`and`splice()`?
+> Difference between `find()` and `findIndex()` and `slice()`and`splice()`?
 
 ## slice
 
