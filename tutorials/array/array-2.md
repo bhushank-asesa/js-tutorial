@@ -192,3 +192,26 @@ for (let x of allKeys) {
   console.log("key", x); // key 0 key 1 key 2
 }
 ```
+
+## Custom prototype function for array
+
+```js
+const a = [1, 7, 5];
+function makeDouble(num) {
+  return num + num;
+}
+Array.prototype.calculate = function (logic) {
+  const output = [];
+  // this here refers to array in example it is a
+  for (let index = 0; index < this.length; index++) {
+    const element = logic(this[index]);
+    output.push(element);
+  }
+  return output;
+};
+
+let calResult = a.calculate(makeDouble);
+console.log(calResult);
+```
+
+---
