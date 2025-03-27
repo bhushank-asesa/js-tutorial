@@ -61,10 +61,10 @@ function isEven(i) {
   return i % 2 == 0;
 }
 let a3 = a.filter(isEven);
-console.log(a3); // [ 4, 6, 54 ]
+console.log(a3); // [ 4, 6, 54 ]; blank for if not found
 ```
 
-### filter
+### reduce
 
 - iterates over an array, applying a reducer function to each element, accumulating a single output value
 
@@ -82,7 +82,7 @@ function add(c, i) {
 }
 let sum2 = a.reduce(add, 0);
 let sum3 = a.reduce(add, 100);
-console.log(sum2, sum3); // 203 303
+console.log(sum2, sum3); // 203 303; return initial value if condition not satisfied
 ```
 
 ### Find
@@ -102,7 +102,7 @@ function findElement(c) {
   return c == 15;
 }
 let findItem2 = a.find(findElement);
-console.log(findItem2); // 15
+console.log(findItem2); // 15; undefined if not find; works on also object element
 ```
 
 ### findIndex
@@ -116,7 +116,7 @@ let findItem = a.findIndex((item, index) => {
   console.log(item, index); // 1 0, 4 1 and stops
   return item % 2 == 0;
 }, 0);
-console.log(findItem); // 1
+console.log(findItem); // 1; -1 if not find; works on also object element
 
 function findElement(c) {
   return c == 15;
