@@ -102,8 +102,7 @@ function x() {
     return d;
 }
 var z = x();
-z();
-500
+z(); // 500
 ```
 
 ## Sequence of operation
