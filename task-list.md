@@ -54,63 +54,62 @@
 43. What is the difference between `Object.assign()` and the spread operator?
 44. What is a module bundler, and how does it work?
 45. interceptors
-46. localStorage & sessionStorage
-47. What is the difference between synchronous and asynchronous code in JavaScript?
-48. What is `eval()` in JavaScript, and why is it considered harmful?
-49. What is a `Proxy` in JavaScript, and how is it used?
-50. What is a `WeakMap` in JavaScript, and how does it differ from a regular `Map`?
-51. Operator
+46. What is the difference between synchronous and asynchronous code in JavaScript?
+47. What is `eval()` in JavaScript, and why is it considered harmful?
+48. What is a `Proxy` in JavaScript, and how is it used?
+49. What is a `WeakMap` in JavaScript, and how does it differ from a regular `Map`?
+50. Operator
     - What is the difference between `==` and `===` in JavaScript?
 
-52. 
+51. 
     - How do you optimize JavaScript performance in a web application?
     - Explain the concept of functional programming and how JavaScript supports it.
     - What are JavaScript modules, and how do you use them?
     - How does JavaScript handle memory management and garbage collection?
     
-53. What is JavaScript?
-54. What is the `new` keyword used for?
-55. What is a `WeakMap` and how is it different from a `Map`?
-56. What is a `Set` in JavaScript?
-57. What is `Object.create()` used for?
-58. What are "decorators" in JavaScript?
-59. ES6 Features: Get comfortable with arrow functions, destructuring, spread/rest operators, and template literals.
-60. What is the purpose of `Object.assign()`?
-61. What are "template literals"?
-62. What is the `spread` operator?
-63. What is the `rest` parameter?
-64. Explain the `for...of` loop.
-65. What is `Symbol` used for in JavaScript?
-66. How do you create a class in JavaScript?
-67. What is destructuring in JavaScript?
-68. What is the `Proxy` object?
-69. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
-70. Design Patterns: Know the most common patterns like Singleton, Observer, and Module.
-71. JSON: Understand JSON parsing and stringify.
-72. Build Tools: Grasp Webpack and Babel for bundling and transpiling.
-73. Testing: Explore testing frameworks like Jest and Mocha.
-74. Debugging: Proficiency with browser developer tools is a must.
-75. ESLint and Code Style: Adhere to clean code practices.
-76. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
-77. Documentation: Keep your code well-documented for clarity.
-78. Automation: Grasp task runners like Grunt and Gulp.
-79. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
-80. Web Performance: Optimize your code for speed and efficiency.
-81. What is a common scenario for employing anonymous functions?
-82. Distinguish between host objects and native objects.
-83. Clarify the distinctions among 'function User(){}', 'var user = User()', and 'var user = new User()'
-84. Explain the differences between feature detection, feature inference, and utilizing the User Agent (UA) string.
-85. What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
-86.   What distinguishes an "attribute" from a "property"?
-87.   List the advantages and disadvantages of extending built-in JavaScript objects.
-88.   Discuss the same-origin policy's implications for JavaScript.
-89.   Why is it referred to as a "Ternary operator," and what does the term "Ternary" signify?
-90.   Define strict mode and outline some of its advantages and disadvantages.
-91.   Analyze the pros and cons of writing JavaScript code in a language that compiles to JavaScript.
-92.   What tools and techniques do you employ for debugging JavaScript code?
-93.   Enumerate the benefits and drawbacks of immutability and explain how you can achieve it in your code.
-94.   Compare ES6 classes and ES5 function constructors, and furnish a use case for the arrow (=>) function syntax.
-95.   Describe the advantages of using the arrow syntax for methods in constructors.
-96.   Give an example of generating a string using ES6 Template Literals and explain their benefits.
-97.   Discuss the benefits of using spread syntax and differentiate it from rest syntax.
-98.   Explain how code sharing between files can be accomplished.
+52. What is JavaScript?
+53. What is the `new` keyword used for?
+54. What is a `WeakMap` and how is it different from a `Map`?
+55. What is a `Set` in JavaScript?
+56. What is `Object.create()` used for?
+57. What are "decorators" in JavaScript?
+58. ES6 Features: Get comfortable with arrow functions, destructuring, spread/rest operators, and template literals.
+59. What is the purpose of `Object.assign()`?
+60. What are "template literals"?
+61. What is the `spread` operator?
+62. What is the `rest` parameter?
+63. Explain the `for...of` loop.
+64. What is `Symbol` used for in JavaScript?
+65. How do you create a class in JavaScript?
+66. What is destructuring in JavaScript?
+67. What is the `Proxy` object?
+68. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
+69. Design Patterns: Know the most common patterns like Singleton, Observer, and Module.
+70. JSON: Understand JSON parsing and stringify.
+71. Build Tools: Grasp Webpack and Babel for bundling and transpiling.
+72. Testing: Explore testing frameworks like Jest and Mocha.
+73. Debugging: Proficiency with browser developer tools is a must.
+74. ESLint and Code Style: Adhere to clean code practices.
+75. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
+76. Documentation: Keep your code well-documented for clarity.
+77. Automation: Grasp task runners like Grunt and Gulp.
+78. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
+79. Web Performance: Optimize your code for speed and efficiency.
+80. What is a common scenario for employing anonymous functions?
+81. Distinguish between host objects and native objects.
+82. Clarify the distinctions among 'function User(){}', 'var user = User()', and 'var user = new User()'
+83. Explain the differences between feature detection, feature inference, and utilizing the User Agent (UA) string.
+84. What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
+85.   What distinguishes an "attribute" from a "property"?
+86.   List the advantages and disadvantages of extending built-in JavaScript objects.
+87.   Discuss the same-origin policy's implications for JavaScript.
+88.   Why is it referred to as a "Ternary operator," and what does the term "Ternary" signify?
+89.   Define strict mode and outline some of its advantages and disadvantages.
+90.   Analyze the pros and cons of writing JavaScript code in a language that compiles to JavaScript.
+91.   What tools and techniques do you employ for debugging JavaScript code?
+92.   Enumerate the benefits and drawbacks of immutability and explain how you can achieve it in your code.
+93.   Compare ES6 classes and ES5 function constructors, and furnish a use case for the arrow (=>) function syntax.
+94.   Describe the advantages of using the arrow syntax for methods in constructors.
+95.   Give an example of generating a string using ES6 Template Literals and explain their benefits.
+96.   Discuss the benefits of using spread syntax and differentiate it from rest syntax.
+97.   Explain how code sharing between files can be accomplished.
