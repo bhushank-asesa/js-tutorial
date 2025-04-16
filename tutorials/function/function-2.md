@@ -2,22 +2,22 @@
 
 ## What is Generator Function
 
-* Generator functions (function*) allow pausing and resuming execution.
-* They use yield to return values one at a time instead of executing fully.
-* Useful for lazy evaluation, handling infinite loops, and working with async tasks.
+- Generator functions (function\*) allow pausing and resuming execution.
+- They use yield to return values one at a time instead of executing fully.
+- Useful for lazy evaluation, handling infinite loops, and working with async tasks.
 
-## Example 
+## Example
 
 ```js
 function* generator() {
-    yield 1;
-    yield 2;
+  yield 1;
+  yield 2;
 }
-const gen = generator()
-console.log(gen.next()) // { value: 1, done: false }
-console.log(gen.next()) // { value: 2, done: false }  
-console.log(gen.next()) // { value: undefined, done: true }
-console.log(gen.next()) // { value: undefined, done: true }
+const gen = generator();
+console.log(gen.next()); // { value: 1, done: false }
+console.log(gen.next()); // { value: 2, done: false }
+console.log(gen.next()); // { value: undefined, done: true }
+console.log(gen.next()); // { value: undefined, done: true }
 ```
 
 ## Practical Use Cases
@@ -26,9 +26,9 @@ console.log(gen.next()) // { value: undefined, done: true }
 
 ```js
 function* largeDataset() {
-    for (let i = 1; i <= 1000000; i++) {
-        yield i;
-    }
+  for (let i = 1; i <= 1000000; i++) {
+    yield i;
+  }
 }
 
 const data = largeDataset();
@@ -42,8 +42,8 @@ console.log(data.next().value); // 2
 
 ```js
 function* greet() {
-    const name = yield "What is your name?";
-    yield `Hello, ${name}!`;
+  const name = yield "What is your name?";
+  yield `Hello, ${name}!`;
 }
 
 const greeter = greet();
@@ -57,12 +57,10 @@ console.log(greeter.next("John").value); // "Hello, John!"
 
 ```js
 function* infiniteNumbers() {
-    let i = 1;
-    while (true) {
-
-        yield i++;
-
-    }
+  let i = 1;
+  while (true) {
+    yield i++;
+  }
 }
 
 const numbers = infiniteNumbers();
@@ -79,19 +77,17 @@ console.log(numbers.next().value); // 3
 const radiusArgument = [1, 3, 2, 4, 5];
 
 function calculateArea(radiusParameter) {
-    let output = [];
-    for (let i = 0; i < radiusParameter.length; i++) {
-
-        output.push(Math.PI * radiusParameter[i] * radiusParameter[i]);
-
-    }
-    return output;
+  let output = [];
+  for (let i = 0; i < radiusParameter.length; i++) {
+    output.push(Math.PI * radiusParameter[i] * radiusParameter[i]);
+  }
+  return output;
 }
-const result = calculateArea(radiusArgument)
-console.log(result) // [3.141592653589793, 28.274333882308138, 12.566370614359172, 50.26548245743669, 78.53981633974483]
+const result = calculateArea(radiusArgument);
+console.log(result); // [3.141592653589793, 28.274333882308138, 12.566370614359172, 50.26548245743669, 78.53981633974483]
 ```
 
-## using prottype function
+## using prottype function other newer approach
 
 ```js
 const radiusArgument = [1, 3, 2, 4, 5];
@@ -100,6 +96,6 @@ function area(radiusParameter) {
   return radiusParameter * radiusParameter * Math.PI;
 }
 
-const result = radiusArgument.map(area)
-console.log(result) // [3.141592653589793, 28.274333882308138, 12.566370614359172, 50.26548245743669, 78.53981633974483]
+const result = radiusArgument.map(area);
+console.log(result); // [3.141592653589793, 28.274333882308138, 12.566370614359172, 50.26548245743669, 78.53981633974483]
 ```
