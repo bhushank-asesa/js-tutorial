@@ -69,7 +69,7 @@ console.log(numbers.next().value); // 2
 console.log(numbers.next().value); // 3
 ```
 
-# Function Old Approch
+# Function Old Approach
 
 ## Iterate using for
 
@@ -87,7 +87,7 @@ const result = calculateArea(radiusArgument);
 console.log(result); // [3.141592653589793, 28.274333882308138, 12.566370614359172, 50.26548245743669, 78.53981633974483]
 ```
 
-## using prottype function other newer approach
+## using prototype function other newer approach
 
 ```js
 const radiusArgument = [1, 3, 2, 4, 5];
