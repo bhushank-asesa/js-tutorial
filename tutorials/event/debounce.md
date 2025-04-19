@@ -31,12 +31,10 @@ const eventCall = debounceCaLL(webCall, 100); // argument actual Function and de
 function debounceCaLL(fn, time) {
   let timer;
   return function () {
-    let context = this;
     args = arguments;
-    console.log(context, args, fn);
     clearTimeout(timer);
     timer = setTimeout(() => {
-      webCall.apply(context, arguments);
+      webCall.apply(this, arguments);
     }, time);
   };
 }
