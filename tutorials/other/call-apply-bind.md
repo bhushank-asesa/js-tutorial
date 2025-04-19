@@ -22,7 +22,7 @@ a1.print.call(a2); // Abhishek Biranje
 
 ## case 2
 
-> use seprate function
+> use separate function
 
 ```js
 let b1 = {
