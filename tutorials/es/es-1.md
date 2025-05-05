@@ -113,6 +113,35 @@ multiplyAndLog(4, 6); // Output: The product is: 24 (and returns
 
 > Arrow functions are widely used in modern JavaScript, especially with concepts like promises, array methods (map, filter, reduce), and event handlers.
 
+#####  Advantages of Arrow Functions in Constructors:
+
+|Benefit|	Description|
+|---|---|
+🔄 Lexical this|	Fixes this context issues in callbacks, timers, and event handlers.|
+❌ No need to bind|	Eliminates the need for .bind(this) or using a separate variable like self = this.|
+💾 Consistent reference|	Safe to pass around the method (e.g., to setTimeout, event handlers).|
+🧹 Cleaner code|	Shorter syntax and avoids extra constructor setup.|
+
+#####  Caveat
+
+* Arrow functions should not be used for class prototype methods if:
+
+* You want to save memory (each instance gets its own copy).
+
+* You don’t need lexical this.
+
+* Example of correct usage for a prototype method:
+
+```js
+class Animal {
+    speak() {
+        console.log("I'm speaking");
+    }
+}
+```
+
+* Use arrow functions only when needed, such as in constructors or for short-lived methods.
+
 ### Object destructure
 
 ```js
