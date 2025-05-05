@@ -23,57 +23,56 @@
 21. Progressive Web application
 22. Clone an Object
 23. Implement clearAllTimeout()
-24. Implement a function to flatten a nested array
-25. How do you handle errors and exceptions in JavaScript? What are the best practices for error handling in asynchronous code with promises?
-26. shallow copy and deep copy
-27. data types
+24. How do you handle errors and exceptions in JavaScript? What are the best practices for error handling in asynchronous code with promises?
+25. shallow copy and deep copy
+26. data types
     - Explain the difference between `null` and `undefined`.
     - What is the `typeof` operator in JavaScript?
     - Data Structures: Arrays, objects, maps, and sets are essential.
     - Differentiate between a variable that is null, undefined, or undeclared.
-28. CORS
-29. What is the difference between `Object.assign()` and the spread operator?
-30. What is a module bundler, and how does it work?
-31. What is the difference between synchronous and asynchronous code in JavaScript?
-32. What is `eval()` in JavaScript, and why is it considered harmful?
-33. What is a `Proxy` in JavaScript, and how is it used?
-34. What is a `WeakMap` in JavaScript, and how does it differ from a regular `Map`?
-35. Operator
+27. CORS
+28. What is the difference between `Object.assign()` and the spread operator?
+29. What is a module bundler, and how does it work?
+30. What is the difference between synchronous and asynchronous code in JavaScript?
+31. What is `eval()` in JavaScript, and why is it considered harmful?
+32. What is a `Proxy` in JavaScript, and how is it used?
+33. What is a `WeakMap` in JavaScript, and how does it differ from a regular `Map`?
+34. Operator
 
     - What is the difference between `==` and `===` in JavaScript?
 
-36. - How do you optimize JavaScript performance in a web application?
+35. - How do you optimize JavaScript performance in a web application?
     - Explain the concept of functional programming and how JavaScript supports it.
     - What are JavaScript modules, and how do you use them?
     - How does JavaScript handle memory management and garbage collection?
 
-37. What is JavaScript?
-38. What is the `new` keyword used for?
-39. What is a `WeakMap` and how is it different from a `Map`?
-40. What is a `Set` in JavaScript?
-41. What is `Object.create()` used for?
-42. What are "decorators" in JavaScript?
-43. What is the purpose of `Object.assign()`?
-44. What is `Symbol` used for in JavaScript?
-45. How do you create a class in JavaScript?
-46. What is the `Proxy` object?
-47. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
-48. JSON: Understand JSON parsing and stringify.
-49. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
-50. Automation: Grasp task runners like Grunt and Gulp.
-51. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
-52. Web Performance: Optimize your code for speed and efficiency.
-53. What is a common scenario for employing anonymous functions?
-54. Distinguish between host objects and native objects.
-55. Clarify the distinctions among 'function User(){}', 'var user = User()', and 'var user = new User()'
-56. What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
-57. What distinguishes an "attribute" from a "property"?
-58. List the advantages and disadvantages of extending built-in JavaScript objects.
-59. Discuss the same-origin policy's implications for JavaScript.
-60. Why is it referred to as a "Ternary operator," and what does the term "Ternary" signify?
-61. Define strict mode and outline some of its advantages and disadvantages.
-62. Enumerate the benefits and drawbacks of immutability and explain how you can achieve it in your code.
-63. Describe the advantages of using the arrow syntax for methods in constructors.
+36. What is JavaScript?
+37. What is the `new` keyword used for?
+38. What is a `WeakMap` and how is it different from a `Map`?
+39. What is a `Set` in JavaScript?
+40. What is `Object.create()` used for?
+41. What are "decorators" in JavaScript?
+42. What is the purpose of `Object.assign()`?
+43. What is `Symbol` used for in JavaScript?
+44. How do you create a class in JavaScript?
+45. What is the `Proxy` object?
+46. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
+47. JSON: Understand JSON parsing and stringify.
+48. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
+49. Automation: Grasp task runners like Grunt and Gulp.
+50. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
+51. Web Performance: Optimize your code for speed and efficiency.
+52. What is a common scenario for employing anonymous functions?
+53. Distinguish between host objects and native objects.
+54. Clarify the distinctions among 'function User(){}', 'var user = User()', and 'var user = new User()'
+55. What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
+56. What distinguishes an "attribute" from a "property"?
+57. List the advantages and disadvantages of extending built-in JavaScript objects.
+58. Discuss the same-origin policy's implications for JavaScript.
+59. Why is it referred to as a "Ternary operator," and what does the term "Ternary" signify?
+60. Define strict mode and outline some of its advantages and disadvantages.
+61. Enumerate the benefits and drawbacks of immutability and explain how you can achieve it in your code.
+62. Describe the advantages of using the arrow syntax for methods in constructors.
 
 
 ## Low Priority
