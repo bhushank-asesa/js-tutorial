@@ -23,26 +23,25 @@
 22. What is the difference between synchronous and asynchronous code in JavaScript?
 23. What is `eval()` in JavaScript, and why is it considered harmful?
 24. What is a `Proxy` in JavaScript, and how is it used?
-25. What is a `WeakMap` in JavaScript, and how does it differ from a regular `Map`?
-26. - How do you optimize JavaScript performance in a web application?
+25. - How do you optimize JavaScript performance in a web application?
     - Explain the concept of functional programming and how JavaScript supports it.
     - What are JavaScript modules, and how do you use them?
     - How does JavaScript handle memory management and garbage collection?
 
-27. What is JavaScript?
-28. What is the `new` keyword used for?
-29. How do you create a class in JavaScript?
-30. What is the `Proxy` object?
-31. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
-32. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
-33. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
-34. Web Performance: Optimize your code for speed and efficiency.
-35. What is a common scenario for employing anonymous functions?
-36. Distinguish between host objects and native objects.
-37. What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
-38. What distinguishes an "attribute" from a "property"?
-39. List the advantages and disadvantages of extending built-in JavaScript objects.
-40. Discuss the same-origin policy's implications for JavaScript.
+26. What is JavaScript?
+27. What is the `new` keyword used for?
+28. How do you create a class in JavaScript?
+29. What is the `Proxy` object?
+30. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
+31. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
+32. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
+33. Web Performance: Optimize your code for speed and efficiency.
+34. What is a common scenario for employing anonymous functions?
+35. Distinguish between host objects and native objects.
+36. What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
+37. What distinguishes an "attribute" from a "property"?
+38. List the advantages and disadvantages of extending built-in JavaScript objects.
+39. Discuss the same-origin policy's implications for JavaScript.
 
 ## Low Priority
 
