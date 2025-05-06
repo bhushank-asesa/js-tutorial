@@ -31,26 +31,18 @@
 
 27. What is JavaScript?
 28. What is the `new` keyword used for?
-29. What is a `WeakMap` and how is it different from a `Map`?
-30. What is a `Set` in JavaScript?
-31. What is `Object.create()` used for?
-32. What are "decorators" in JavaScript?
-33. What is the purpose of `Object.assign()`?
-34. What is `Symbol` used for in JavaScript?
-35. How do you create a class in JavaScript?
-36. What is the `Proxy` object?
-37. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
-38. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
-39. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
-40. Web Performance: Optimize your code for speed and efficiency.
-41. What is a common scenario for employing anonymous functions?
-42. Distinguish between host objects and native objects.
-43. Clarify the distinctions among 'function User(){}', 'var user = User()', and 'var user = new User()'
-44. What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
-45. What distinguishes an "attribute" from a "property"?
-46. List the advantages and disadvantages of extending built-in JavaScript objects.
-47. Discuss the same-origin policy's implications for JavaScript.
-48. Enumerate the benefits and drawbacks of immutability and explain how you can achieve it in your code.
+29. How do you create a class in JavaScript?
+30. What is the `Proxy` object?
+31. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
+32. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
+33. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
+34. Web Performance: Optimize your code for speed and efficiency.
+35. What is a common scenario for employing anonymous functions?
+36. Distinguish between host objects and native objects.
+37. What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
+38. What distinguishes an "attribute" from a "property"?
+39. List the advantages and disadvantages of extending built-in JavaScript objects.
+40. Discuss the same-origin policy's implications for JavaScript.
 
 ## Low Priority
 
