@@ -1,47 +1,46 @@
 # Javascript task List
-01.  Object
-02.  throttling
-03.  Prototype and prototype inheritance - Explain the difference between `prototype` and `__proto__`.
-04.  Memoization => recursive function and performance?
-05.  Polyfills
-06.  Execution and call stack
-07.  String
-08.   Number
-09.  callback and hell
-10. promise and promise chaining and APIs(4); Promise.all => speed up?
-11. async/await, async/defer
-12. callback vs promise vs async/await
-13. Event loop, micro-task, Macro-tasks
-14. Web APIs
-15. Working of JS Engine
-16. Date, Math, Other, Loop, block
-17. Implement Memoization
-18. String.prototype.repeat
-19. Progressive Web application
-20. CORS
-21. What is a module bundler, and how does it work?
-22. What is the difference between synchronous and asynchronous code in JavaScript?
-23. What is `eval()` in JavaScript, and why is it considered harmful?
-24. What is a `Proxy` in JavaScript, and how is it used?
-25. - How do you optimize JavaScript performance in a web application?
+01. throttling
+02. What distinguishes an "attribute" from a "property"?
+03. List the advantages and disadvantages of extending built-in JavaScript objects.
+04. What is a common scenario for employing anonymous functions?
+05. Distinguish between host objects and native objects.
+06. Object
+07. What is the `Proxy` object?
+08.  Prototype and prototype inheritance - Explain the difference between `prototype` and `__proto__`.
+09.  Memoization => recursive function and performance?
+10. Polyfills
+11. Execution and call stack
+12. String
+13. Number
+14. callback and hell
+15. promise and promise chaining and APIs(4); Promise.all => speed up?
+16. async/await, async/defer
+17. callback vs promise vs async/await
+18. Event loop, micro-task, Macro-tasks
+19. Working of JS Engine
+20. Date, Math, Other, Loop, block
+21. Implement Memoization
+22. String.prototype.repeat
+23. Progressive Web application
+24. CORS
+25. What is a module bundler, and how does it work?
+26. What is the difference between synchronous and asynchronous code in JavaScript?
+27. What is `eval()` in JavaScript, and why is it considered harmful?
+28. What is a `Proxy` in JavaScript, and how is it used?
+29. - How do you optimize JavaScript performance in a web application?
     - Explain the concept of functional programming and how JavaScript supports it.
     - What are JavaScript modules, and how do you use them?
     - How does JavaScript handle memory management and garbage collection?
 
-26. What is JavaScript?
-27. What is the `new` keyword used for?
-28. How do you create a class in JavaScript?
-29. What is the `Proxy` object?
-30. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
-31. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
-32. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
-33. Web Performance: Optimize your code for speed and efficiency.
-34. What is a common scenario for employing anonymous functions?
-35. Distinguish between host objects and native objects.
-36. What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
-37. What distinguishes an "attribute" from a "property"?
-38. List the advantages and disadvantages of extending built-in JavaScript objects.
-39. Discuss the same-origin policy's implications for JavaScript.
+30. What is JavaScript?
+31. What is the `new` keyword used for?
+32. How do you create a class in JavaScript?
+33. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
+34. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
+35. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
+36. Web Performance: Optimize your code for speed and efficiency.
+37. What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
+38. Discuss the same-origin policy's implications for JavaScript.
 
 ## Low Priority
 
