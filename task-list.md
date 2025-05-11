@@ -5,19 +5,18 @@
 1. String
 2. Number
 3. Date, Math, Other, Loop, block
-4. CORS
-5. What is a module bundler, and how does it work?
-6. What is `eval()` in JavaScript, and why is it considered harmful?
-7. What is a `Proxy` in JavaScript, and how is it used?
-8. - How do you optimize JavaScript performance in a web application?
+4. What is a module bundler, and how does it work?
+5. What is `eval()` in JavaScript, and why is it considered harmful?
+6. What is a `Proxy` in JavaScript, and how is it used?
+7. - How do you optimize JavaScript performance in a web application?
    - Explain the concept of functional programming and how JavaScript supports it.
    - What are JavaScript modules, and how do you use them?
    - How does JavaScript handle memory management and garbage collection?
-9. What is the `new` keyword used for?
-10. How do you create a class in JavaScript?
-11. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
-12. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
-13. Web Performance: Optimize your code for speed and efficiency.
+8. What is the `new` keyword used for?
+9. How do you create a class in JavaScript?
+10. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
+11. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
+12. Web Performance: Optimize your code for speed and efficiency.
 
 ## Akshay Saini
 
