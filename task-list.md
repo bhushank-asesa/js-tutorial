@@ -1,11 +1,5 @@
 # Javascript task List
 
-## Javascript
-
-1. String
-2. Number
-3. Date, Math, Other, Loop, block
-
 ## Akshay Saini
 
 1. throttling
@@ -51,4 +45,4 @@
 21. Automation: Grasp task runners like Grunt and Gulp.
 22. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
 23. Web Performance: Optimize your code for speed and efficiency.
-24. - How do you optimize JavaScript performance in a web application?
+24. How do you optimize JavaScript performance in a web application?
