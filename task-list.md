@@ -5,14 +5,6 @@
 1. String
 2. Number
 3. Date, Math, Other, Loop, block
-4. - How do you optimize JavaScript performance in a web application?
-   - Explain the concept of functional programming and how JavaScript supports it.
-   - What are JavaScript modules, and how do you use them?
-   - How does JavaScript handle memory management and garbage collection?
-5. What is the `new` keyword used for?
-6. How do you create a class in JavaScript?
-7. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
-8. Web Performance: Optimize your code for speed and efficiency.
 
 ## Akshay Saini
 
@@ -57,3 +49,6 @@
 19. What tools and techniques do you employ for debugging JavaScript code?
 20. Analyze the pros and cons of writing JavaScript code in a language that compiles to JavaScript.
 21. Automation: Grasp task runners like Grunt and Gulp.
+22. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
+23. Web Performance: Optimize your code for speed and efficiency.
+24. - How do you optimize JavaScript performance in a web application?
