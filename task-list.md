@@ -5,16 +5,14 @@
 1. String
 2. Number
 3. Date, Math, Other, Loop, block
-4. What is a module bundler, and how does it work?
-5. - How do you optimize JavaScript performance in a web application?
+4. - How do you optimize JavaScript performance in a web application?
    - Explain the concept of functional programming and how JavaScript supports it.
    - What are JavaScript modules, and how do you use them?
    - How does JavaScript handle memory management and garbage collection?
-6. What is the `new` keyword used for?
-7. How do you create a class in JavaScript?
-8. DOM Manipulation: Know how to interact with the Document Object Model (DOM) effectively.
-9. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
-10. Web Performance: Optimize your code for speed and efficiency.
+5. What is the `new` keyword used for?
+6. How do you create a class in JavaScript?
+7. Security: Understand common web security vulnerabilities (e.g., XSS, CSRF).
+8. Web Performance: Optimize your code for speed and efficiency.
 
 ## Akshay Saini
 
