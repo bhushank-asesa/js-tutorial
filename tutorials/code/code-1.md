@@ -170,3 +170,25 @@ let res2 = nested.flat(Infinity) // ES2019+, JavaScript has a built-in method:
 console.log(res1)
 console.log(18, res2) // [1, 2, 3, 4, 5, 6, 7]
 ```
+
+## sum(12)(13)...() 
+
+* user recursive after two (a, b)
+
+```js
+let sum = function(a) {
+    return function(b) {
+        if (b) {
+            return sum(a + b);
+        } else
+            return a;
+    }
+}
+console.log(sum(5)()); // 5
+console.log(sum(5)(13)()); // 18 
+console.log(sum(5)(24)(42)(66)()); // 137
+```
+
+```js
+let sum = a => b => b ? sum(a + b) : a
+```
