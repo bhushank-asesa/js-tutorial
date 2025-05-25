@@ -264,3 +264,15 @@ AggregateError: All promises were rejected
 ```
 
 - after 3 seconds
+
+## lingo
+
+- settled -> got result
+  - resolve or reject
+  - success or failure
+  - fulfilled or rejected
+
+## aggregate error
+
+- what is aggregate error
+  - all promise error
