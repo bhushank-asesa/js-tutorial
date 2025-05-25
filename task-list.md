@@ -6,18 +6,14 @@
 2. Prototype and prototype inheritance - Explain the difference between `prototype` and `__proto__`.
 3. Memoization => recursive function and performance?
 4. Polyfills
-5. callback and hell
-6. promise and promise chaining and APIs(4); Promise.all => speed up?
-7. async/await, async/defer
-8. callback vs promise vs async/await
-9. Event loop, micro-task, Macro-tasks
-10. Working of JS Engine
-11. Implement Memoization
-12. String.prototype.repeat
-13. Progressive Web application
-14. What is the difference between synchronous and asynchronous code in JavaScript?
-15. What is JavaScript?
-16. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
+5. async/await
+6. callback vs promise vs async/await
+7. Implement Memoization
+8. String.prototype.repeat
+9. Progressive Web application
+10. What is the difference between synchronous and asynchronous code in JavaScript?
+11. What is JavaScript?
+12. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
 
 ## Low Priority
 
