@@ -2,16 +2,15 @@
 
 ## Akshay Saini
 
-1. throttling
-2. Prototype and prototype inheritance - Explain the difference between `prototype` and `__proto__`.
-3. Memoization => recursive function and performance?
-4. Polyfills
-5. Implement Memoization
-6. String.prototype.repeat
-7. Progressive Web application
-8. What is the difference between synchronous and asynchronous code in JavaScript?
-9. What is JavaScript?
-10. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
+1. Prototype and prototype inheritance - Explain the difference between `prototype` and `__proto__`.
+2. Memoization => recursive function and performance?
+3. Polyfills
+4. Implement Memoization
+5. String.prototype.repeat
+6. Progressive Web application
+7. What is the difference between synchronous and asynchronous code in JavaScript?
+8. What is JavaScript?
+9. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
 
 ## Low Priority
 
