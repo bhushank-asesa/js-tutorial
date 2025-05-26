@@ -88,7 +88,7 @@ This is x function
 
 ```js
 function x() {
-  for (let i = 1; i <= 5; i++) {
+  for (var i = 1; i <= 5; i++) {
     function print(x) {
       setTimeout(() => {
         console.log(x);
@@ -113,3 +113,4 @@ This is x function
 ```
 
 - as var is function scope so function for print i made this will create separate copy of i in every function execution context
+- closure is used

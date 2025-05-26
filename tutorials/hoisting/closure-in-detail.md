@@ -79,7 +79,7 @@ outest()("Hello")(); // 5 7 'Hello'
 ```
 
 - if we comment `let a = 5;` then it will be `// 45 7 'Hello'`
-- if we comment bot a declaration it will giver `reference error a is not defined`
+- if we comment both a declaration it will giver `reference error a is not defined`
 - it try to find in all cope chain
 
 ## Data hiding
@@ -112,7 +112,7 @@ counter2();
 4
 ```
 
-- here count variable become private variable as dita hiding is done
+- here count variable become private variable as data hiding is done
 - new copy for counter1 and counter2 created
 
 ## scalable counter example

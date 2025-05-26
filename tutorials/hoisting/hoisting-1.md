@@ -24,6 +24,7 @@ getName Called
 
 - can access x as undefined before declaration
 - memory is allocated to function and var
+- var is function scoped
 
 ```js
 console.log(x);
@@ -87,7 +88,7 @@ Uncaught TypeError: getName2 is not a function at test.js:3:1
 */
 ```
 
-## function
+## Function
 
 > new execution context created for function call
 
@@ -95,8 +96,11 @@ Uncaught TypeError: getName2 is not a function at test.js:3:1
 
 > Let and Const are hoisted using temporal dead-zone
 
+- **Temporal dead-zone** = time between let variable access and initialization of let
+  variable
 - let and const hoisted in scope other than global(window in case of browser) or other than global memory
 - var is attached global space
+- let and const is block scoped
 
 ```js
 let a = 15; // add debugger here
@@ -146,7 +150,6 @@ let c;
 c = 45
 const a;
 a = 44
-
 ```
 
 ## Type error
@@ -171,5 +174,6 @@ a = 44;
 
 ## Other
 
-> Avoid Temporal dead-zone using let/const declaration on top of scope
+> Avoid Temporal dead-zone using let/const declaration on top of scope.
+
 > let and const are hoisted using Temporal Dead-zone

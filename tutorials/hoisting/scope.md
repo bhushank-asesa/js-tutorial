@@ -4,6 +4,7 @@
 
 - block {} is compound statement
 - multiple statement used as single statement
+- block scope => variable we can access in block
 
 ## case 1
 
@@ -40,7 +41,7 @@ var a = 10;
 console.log(a); // 15
 ```
 
-## Shadowing var
+## Shadowing let and const
 
 - let/const are not shadowed because they are in different memory space both a are in different execution context scope eg global/script/block
 
