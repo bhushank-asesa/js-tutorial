@@ -32,6 +32,7 @@ function (){
 
 - looks like function statement but give syntax error due to
   function requires name
+- used in callback function
 
 ## Named function expression
 
