@@ -2,27 +2,23 @@
 
 ## Akshay Saini
 
-1. Prototype and prototype inheritance - Explain the difference between `prototype` and `__proto__`.
-2. Memoization => recursive function and performance?
-3. Polyfills
-4. Implement Memoization
-5. String.prototype.repeat
-6. Progressive Web application
-7. What is the difference between synchronous and asynchronous code in JavaScript?
-8. What is JavaScript?
-9. Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
+01. Prototype and prototype inheritance - Explain the difference between `prototype` and `__proto__`.
+02. Memoization => recursive function and performance?
+03. Implement Memoization
+04.  Progressive Web application
+05.  Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
 
 ## Low Priority
 
-1.  What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
-2.  Discuss the same-origin policy's implications for JavaScript.
-3.  Design patterns like singleton, factory patterns etc
-4.  Implement the compose() and pipe() polyfill .
-5.  Implement the publisher-subscriber pattern in javascript
-6.  Implement Async. parallel, Async.series which executes a set of async tasks parallel and in series
-7.  Implement thet Retry API
-8.  How rendering work in the browser
-9.  Explain how code sharing between files can be accomplished.
+01.  What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
+02.  Discuss the same-origin policy's implications for JavaScript.
+03.  Design patterns like singleton, factory patterns etc
+04.  Implement the compose() and pipe() polyfill .
+05.  Implement the publisher-subscriber pattern in javascript
+06.  Implement Async. parallel, Async.series which executes a set of async tasks parallel and in series
+07.  Implement thet Retry API
+08.  How rendering work in the browser
+09.  Explain how code sharing between files can be accomplished.
 10. Documentation: Keep your code well-documented for clarity.
 11. Implement an LRU Cache
 12. interceptors.
