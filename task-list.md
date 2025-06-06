@@ -1,13 +1,5 @@
 # Javascript task List
 
-## Akshay Saini
-
-01. Prototype and prototype inheritance - Explain the difference between `prototype` and `__proto__`.
-02. Memoization => recursive function and performance?
-03. Implement Memoization
-04.  Progressive Web application
-05.  Progressive Web Apps (PWAs): Understand PWA concepts and service workers.
-
 ## Low Priority
 
 01.  What is type coercion, and what are some common pitfalls associated with relying on it in JavaScript code?
